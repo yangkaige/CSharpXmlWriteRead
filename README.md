@@ -7,7 +7,7 @@
 查询特定元素，`doc.GetElementById('id')`,`doc.GetElementsByTagName('MyTag')`  
 获取元素的值，`el.InnerText`或`el.InnerXml`
 
-- `XDocument`
+- `XDocument`  
 创建新的文档对象,`XDocument doc = new XDocument()`,或从现有文件中加载`XDocument doc = XDocument.Load("my.xml")`   
 添加文档声明`doc.Declaration = new Declaration("1.0,"utf-8","yes")`,   
 创建元素，`XElement el = new XElement("My")`,追加元素，`doc.Add(el)`;获取子元素，`el.Element()`或`el.Elements()`,获取后代元素  
